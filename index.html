@@ -26,9 +26,66 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <!-- css style -->
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+
+      .bg-primary {
+        background-color: #abef5f;
+      }
+    </style>
   </head>
-  <body>
-    <header></header>
+  <body class="manrope">
+    <header class="bg-[#F5F5F5]">
+      <nav
+        class="max-w-6xl mx-auto px-6 flex justify-between items-center pt-7"
+      >
+        <div class="logo flex justify-center items-center gap-2">
+          <div
+            class="icon h-7 w-7 rounded-full bg-primary flex justify-center items-center"
+          >
+            <i class="ri-arrow-right-up-line text-xl"></i>
+          </div>
+          <h1 class="text-3xl font-bold">Rinterio</h1>
+        </div>
+
+        <ul class="hidden lg:flex lg:justify-center ;lg:items-center lg:gap-12 lg:text-sm">
+          <li><a class="font-bold" href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="icon-button flex justify-center items-center gap-2">
+          <div class="search h-10 w-10 rounded-full bg-white hidden md:flex md:justify-center md:items-center">
+            <i class="ri-search-line text-xl"></i>
+          </div>
+
+          <div class="shopping h-10 w-10 rounded-full bg-white hidden md:flex md:justify-center md:items-center">
+            <i class="ri-shopping-cart-2-line text-xl"></i>
+          </div>
+
+          <button class="hidden py-2 px-3 bg-primary rounded-3xl md:flex md:justify-center md:items-center md:gap-1">
+            <p class="font-extrabold text-base">Book Consult</p>
+            <div
+              class="icon h-7 w-7 rounded-full bg-black text-white flex justify-center items-center"
+            >
+              <i class="ri-arrow-right-up-line text-xl"></i>
+            </div>
+          </button>
+
+          <div class="menubar h-10 w-10 rounded-full bg-white flex justify-center items-center lg:hidden">
+            <i class="ri-menu-line text-xl"></i>
+          </div>
+        </div>
+
+        
+      </nav>
+    </header>
 
     <main></main>
 
